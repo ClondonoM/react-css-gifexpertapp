@@ -1,3 +1,7 @@
+# The Gif Expert App!
+
+type your favorite theme, artist, anime, etc and see the gifs!!
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
