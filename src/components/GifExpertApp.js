@@ -3,11 +3,15 @@ import { AddCategory } from "./AddCategory";
 import { GifGrid } from "./GifGrid";
 
 export const GifExpertApp = () => {
-  const [categories, setCategories] = useState(["Metallica"]);
+  const [categories, setCategories] = useState(["dog"]);
 
   return (
     <>
-      <h2>GifExpertApp</h2>
+      <div className="title">
+        <h1>Gif Expert App</h1>
+        <a>https://www.carlos-londono.dev</a>
+      </div>
+
       <AddCategory setCategories={setCategories} />
       <hr />
 

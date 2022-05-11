@@ -1,15 +1,22 @@
 * {
   font-family: lato, sans-serif;
+  color: white;
 }
 
 body {
   padding: 1rem;
+  background-color: #3830a4;
 }
 
 input {
   color: #4e4e4e;
   font-size: 1.2rem;
   width: 100%;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
 }
 
 .card-grid {
@@ -20,7 +27,7 @@ input {
 
 .card {
   align-content: center;
-  border: 1px solid #505050;
+  border: 1px solid white;
   border-radius: 6px;
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
