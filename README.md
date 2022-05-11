@@ -2,7 +2,7 @@
 
 Type your favorite theme, artist, cartoon, etc and see the gifs!!.\
 This app uses the https://developers.giphy.com/ api services.\
-This app is made with react an css
+This app is made with react and css
 
 ## Getting Started with Create React App
 
