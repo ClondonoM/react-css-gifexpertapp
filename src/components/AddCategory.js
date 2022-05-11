@@ -16,7 +16,12 @@ export const AddCategory = ({ setCategories }) => {
   };
   return (
     <form onSubmit={handleSubmit}>
-      <input type="text" value={inputValue} onChange={handleInputChange} />
+      <input
+        type="text"
+        value={inputValue}
+        placeholder="Search your gif"
+        onChange={handleInputChange}
+      />
     </form>
   );
 };
